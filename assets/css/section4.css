@@ -36,6 +36,25 @@ body {
   font-size: 0.85em;
 }
 
+/* section 3 */
+.three {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.slogan-container {
+  width: 80%;
+}
+.slogan-container p {
+  font-size: 1.75em;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+/* section 4 */
 .four {
   display: flex;
   flex-flow: column;
@@ -44,8 +63,10 @@ body {
 }
 
 .usp-container {
+  width: 90%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .usp-box {
