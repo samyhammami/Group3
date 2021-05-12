@@ -1,7 +1,8 @@
-// comments
-/* comments */
+// secret comments that don't show in the css file :)
+/* comments that can be written in the css file*/
 
-body{
-    background-color: white;
+// rules for screens that are smaller than 400 pixels
+@media (max-width: 480px) {
+    
 }
 
