@@ -1,10 +1,3 @@
-
-body {
-  background-color: #9b094d;
-}
-
-
-
 /* fonts */
 @font-face {
   font-family: "Font-Brands";
@@ -39,82 +32,92 @@ body {
   font-size: 0.85em;
 }
 
-/* section 3 */
-.three {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+.eight {
+  background-image: url("/assets/img/pricing-background2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.slogan-container {
+.pricing-container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 10%;
+}
+
+.pricing-tag {
+  text-align: center;
+  color: white;
+  padding: 75px;
+}
+.pricing-tag h2 {
+  font-size: 2em;
+}
+.pricing-tag p {
+  position: relative;
   width: 80%;
-}
-.slogan-container p {
-  font-size: 1.75em;
-  text-align: center;
+  left: 10%;
   line-height: 1.5em;
-  letter-spacing: 0.02em;
-  color: #333333;
 }
 
-/* section 4 */
-.four {
+.pricing-offer {
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  padding: 50px 0;
-}
-
-.usp-container {
-  width: 90%;
-  display: flex;
-  flex-flow: row wrap;
+  flex-flow: row no-wrap;
   justify-content: center;
 }
-
-.usp-box {
-  width: 300px;
-  height: 300px;
-  background-color: #f0fafc;
-  padding: 0px;
-  margin: 15px;
-  border-radius: 20px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-.usp-box .usp-icon {
-  height: 50px;
-  width: auto;
-  margin: 15px 0;
-}
-.usp-box h3 {
-  margin: 10;
-}
-.usp-box p {
-  margin: 0;
+.pricing-offer .pricing-card {
+  flex: 1;
+  position: relative;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 20px;
   text-align: center;
+}
+.pricing-offer .pricing-card h4 {
+  text-transform: uppercase;
+  color: #eb427d;
+}
+.pricing-offer .pricing-card .price {
+  font-size: 4em;
+  line-height: 0.3;
+  margin: 40px;
+}
+.pricing-offer .pricing-card .price .dollar {
+  font-size: 0.5em;
+  margin: 5px;
+}
+.pricing-offer .pricing-card .price .monthly {
+  font-size: 0.25em;
   color: grey;
-  line-height: 1.5em;
-  padding: 0 30px;
+}
+.pricing-offer .pricing-card ul {
+  font-size: 0.95em;
+  color: grey;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0 20px 50px 20px;
+}
+.pricing-offer .pricing-card ul li {
+  margin: 10px 0;
+}
+.pricing-offer .pricing-card ul li i {
+  font-size: 0.7em;
+  color: #594cda;
+}
+.pricing-offer .pricing-card ul li:first-child {
+  margin-top: 15px;
+}
+.pricing-offer .pricing-card button {
+  background-color: #594cda;
+  color: white;
+  padding: 15px 35px;
+  border: 0;
+  border-radius: 25px;
+  width: 50%;
+  position: absolute;
+  left: 25%;
 }
 
-/* section 4 mobile */
-@media (max-width: 480px) {
-  .usp-box {
-    width: auto;
-    height: auto;
-  }
-  .usp-box .usp-icon {
-    margin-top: 40px;
-  }
-  .usp-box h3 {
-    margin-bottom: 5;
-  }
-  .usp-box p {
-    margin-bottom: 50px;
-  }
-}
-
-/*# sourceMappingURL=section4.css.map */
+/*# sourceMappingURL=section8.css.map */
