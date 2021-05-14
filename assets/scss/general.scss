@@ -1,4 +1,4 @@
-/* fonts */
+}/* fonts */
 @font-face {
     font-family: 'Font-Brands';
     src: url('fonts/fa-brands-400.eot'); /* IE9 Compat Modes */
@@ -35,11 +35,16 @@ $font-icons: 'Font-Brands', sans-serif;
 $blue: #c6e9f8;
 $purple: rgb(89, 76, 218);
 $pink: rgb(235, 66, 125);
+$grey: rgb(240, 250, 252);
+$grey-text: grey;
 
 /* overall styles */
-
+html{
+    font-size: 18px;
+}
 body{
     background-color: white;
     font-family: $font-reg;
+    font-size:0.85em;
 }
 

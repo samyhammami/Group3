@@ -6,3 +6,20 @@
     
 }
 
+/* section 4 mobile */
+
+@media (max-width: 480px) {
+    .usp-box{
+        width: auto;
+        height: auto;
+        .usp-icon{
+            margin-top:40px;
+        }
+        h3{
+            margin-bottom:5;
+        }
+        p{
+            margin-bottom: 50px;
+        }
+    }
+}
