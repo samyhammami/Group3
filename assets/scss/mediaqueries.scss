@@ -1,8 +1,27 @@
 // secret comments that don't show in the css file :)
+
 /* comments that can be written in the css file*/
 
 // rules for screens that are smaller than 400 pixels
+
 @media (max-width: 480px) {
     
 }
 
+/* section 4 mobile */
+
+@media (max-width: 480px) {
+    .usp-box{
+        width: auto;
+        height: auto;
+        .usp-icon{
+            margin-top:40px;
+        }
+        h3{
+            margin-bottom:5;
+        }
+        p{
+            margin-bottom: 50px;
+        }
+    }
+}
