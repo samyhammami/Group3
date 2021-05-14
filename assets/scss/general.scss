@@ -43,12 +43,13 @@ $grey-text: grey;
 /* overall styles */
 html{
     font-size: 18px;
+    
 }
 
 body{
-    background-color: white;
     font-family: $font-reg;
     font-size:0.85em;
+    background: linear-gradient(180deg,#c6e9f8 0%, white 30%, #c6e9f8 100%);
 
 }
 

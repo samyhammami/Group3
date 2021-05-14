@@ -1,7 +1,6 @@
 .two {
   display: flex;
   justify-content: center;
-  background: linear-gradient(90deg, white 0%, #c6e9f8 100%);
 }
 
 .text1 {

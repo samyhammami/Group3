@@ -15,6 +15,7 @@
     margin-bottom: 50px;
   }
 }
+/* section 8 mobile */
 @media (max-width: 480px) {
   .eight {
     background-size: cover;
