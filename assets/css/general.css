@@ -1,3 +1,7 @@
+body {
+  background-color: #9b094d;
+}
+
 /* fonts */
 @font-face {
   font-family: "Font-Brands";
@@ -27,12 +31,9 @@ html {
 }
 
 body {
-
-  background-color: #9b094d;
   background-color: white;
   font-family: "Font-Regular", sans-serif;
   font-size: 0.85em;
-
 }
 
 /*# sourceMappingURL=general.css.map */
