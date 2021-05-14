@@ -1,7 +1,3 @@
-
-body {
-    background-color: rgb(155, 9, 77);
-}
 /* fonts */
 @font-face {
     font-family: 'Font-Brands';
@@ -31,9 +27,11 @@ body {
          url('https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-solid-900.svg') format('svg'); /* Legacy iOS */
   }
 
-$font-reg:'Font-Regular', sans-serif;
-$font-bold: 'Font-Solid', sans-serif;
-$font-icons: 'Font-Brands', sans-serif;
+  
+
+$font-reg: 'Open Sans', sans-serif;
+$font-med: 600;
+$font-bold: 700;
 
 /* colors */
 $blue: #c6e9f8;
@@ -46,9 +44,9 @@ $grey-text: grey;
 html{
     font-size: 18px;
 }
+
 body{
     background-color: white;
-
     font-family: $font-reg;
     font-size:0.85em;
 

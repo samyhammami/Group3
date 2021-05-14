@@ -15,5 +15,26 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 480px) {
+  .eight {
+    background-size: cover;
+  }
+
+  .pricing-offer {
+    flex-flow: column;
+  }
+
+  .pricing-container {
+    margin: 0;
+  }
+
+  .pricing-tag {
+    padding: 10px;
+  }
+
+  .pricing-card {
+    margin: 50px 20px !important;
+  }
+}
 
 /*# sourceMappingURL=mediaqueries.css.map */
