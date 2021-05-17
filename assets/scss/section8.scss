@@ -3,7 +3,8 @@
 .eight{
     background-image: url("/assets/img/pricing-background2.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin-bottom: 50px;
 }
 .pricing-bg{
     //background-color: rgba(62,73,79,0.9);

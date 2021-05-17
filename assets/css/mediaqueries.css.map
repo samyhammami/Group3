@@ -1,16 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AAEA;AAQA;AAEA;EACI;IACI;IACA;;EACA;IACI;;EAEJ;IACI;;EAEJ;IACI","file":"mediaqueries.css"}
-=======
-
-{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AAEA;AAQA;AAEA;EACI;IACI;IACA;;EACA;IACI;;EAEJ;IACI;;EAEJ;IACI","file":"mediaqueries.css"}
-
-
-{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AACA;AAOA;AAEA;EACI;IACI;IACA;;EACA;IACI;;EAEJ;IACI;;EAEJ;IACI;;;AAMZ;EACI;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;EAEJ;IACI","file":"mediaqueries.css"}
-
-{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AAEA","file":"mediaqueries.css"}
-
-{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AACA;AAOA;AAEA;EACI;IACI;IACA;;EACA;IACI;;EAEJ;IACI;;EAEJ;IACI","file":"mediaqueries.css"}
-
-
-
->>>>>>> 2756161221d55988e9a2e259f9d4a52a2c81ba74
+{"version":3,"sourceRoot":"","sources":["../scss/mediaqueries.scss"],"names":[],"mappings":"AAEA;AAQA;AAEA;EACI;IACI;IACA;;EACA;IACI;;EAEJ;IACI;;EAEJ;IACI;;;AAKZ;AAEA;EACI;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;AAIR;EACI;IACI;;EACA;IACI","file":"mediaqueries.css"}
