@@ -1,7 +1,6 @@
 .two {
   display: flex;
   justify-content: center;
-  background: linear-gradient(90deg, white 0%, #c6e9f8 100%);
 }
 
 .text1 {
@@ -30,6 +29,7 @@
   padding: 15px 35px;
   border: none;
   text-decoration: none;
+  width: 200px;
 }
 
 .btn2 {
@@ -41,11 +41,14 @@
   padding: 15px 35px;
   border: none;
   text-decoration: none;
+  width: 200px;
 }
 
 .two-container {
   display: flex;
   justify-content: center;
 }
-
+button i{
+  margin-right: 10px;
+}
 /*# sourceMappingURL=sectiontwo.css.map */
