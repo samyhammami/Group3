@@ -1,3 +1,19 @@
 
+.numbers {
+    color: black;
+    font-size: 45px;
+    font-style: bold;
+}
 
-/*# sourceMappingURL=section6.css.map */
+.count {
+    color:rgb(43, 39, 39);
+    font-size: 10px;
+    font-style: bold;
+    text-align: center;
+}
+
+.number-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
