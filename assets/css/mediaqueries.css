@@ -1,4 +1,12 @@
 /* comments that can be written in the css file*/
+@media (max-width: 480px) {
+  .number-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-content: center;
+  }
+}
 /* section 4 mobile */
 @media (max-width: 480px) {
   .usp-box {
@@ -13,6 +21,15 @@
   }
   .usp-box p {
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .two .two-container {
+    display: flex;
+    flex-flow: column;
+  }
+  .two .box {
+    flex: 1;
   }
 }
 /* section 8 mobile */
@@ -37,13 +54,21 @@
     margin: 50px 20px !important;
   }
 }
-/* section 5 mobile */
 @media (max-width: 480px) {
   .sectionFive-wrapper {
-    flex-flow: column;
+    justify-self: center;
+    align-items: center;
+    flex-flow: column !important;
+  }
+  .sectionFive-wrapper .info {
+    width: 100%;
+    margin: 0;
   }
   .sectionFive-wrapper img {
     height: 200px !important;
+    width: 100%;
+    margin: 0;
+    align-self: center;
   }
 }
 
