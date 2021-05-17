@@ -9,8 +9,9 @@
     
 }
 
-.text1{
+.text1  {
      display: block;
+     align-items: center;
      margin: 250px;
      margin-right: 90px;
 
@@ -23,7 +24,9 @@
 }
 
 .button{
-    padding: 35px;
+    display: flex;
+    justify-content: center;
+    padding-right: 85px;
 }
 
 .btn1 {
@@ -32,8 +35,10 @@
     color: white;
     border-radius: 2rem;
     margin: 4px 2px;
-    padding: 15px;
+    padding: 15px 35px;
+    border: none;
     text-decoration: none;
+    
     
 }
 
@@ -43,10 +48,15 @@
     color: white;
     border-radius: 2rem;
     margin: 4px 2px;
-    padding: 15px;
+    padding: 15px 35px;
+    border: none;
     text-decoration: none;
 }
 
+.two-container{
+    display: flex;
+    justify-content: center;
+}
 
 
 

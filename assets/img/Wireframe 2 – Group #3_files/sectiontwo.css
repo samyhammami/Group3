@@ -1,11 +1,11 @@
 .two {
   display: flex;
   justify-content: center;
+  background: linear-gradient(90deg, white 0%, #c6e9f8 100%);
 }
 
 .text1 {
   display: block;
-  align-items: center;
   margin: 250px;
   margin-right: 90px;
 }
@@ -15,9 +15,7 @@
 }
 
 .button {
-  display: flex;
-  justify-content: center;
-  padding-right: 85px;
+  padding: 35px;
 }
 
 .btn1 {
@@ -26,8 +24,7 @@
   color: white;
   border-radius: 2rem;
   margin: 4px 2px;
-  padding: 15px 35px;
-  border: none;
+  padding: 15px;
   text-decoration: none;
 }
 
@@ -37,14 +34,8 @@
   color: white;
   border-radius: 2rem;
   margin: 4px 2px;
-  padding: 15px 35px;
-  border: none;
+  padding: 15px;
   text-decoration: none;
-}
-
-.two-container {
-  display: flex;
-  justify-content: center;
 }
 
 /*# sourceMappingURL=sectiontwo.css.map */
