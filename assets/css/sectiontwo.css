@@ -1,13 +1,15 @@
 .two {
   display: flex;
   justify-content: center;
-  background: linear-gradient(90deg, white 0%, #c6e9f8 100%);
+  width: 80%;
+  margin: 10%;
 }
 
 .text1 {
   display: block;
   align-items: center;
-  margin: 250px;
+  margin-left: 250px;
+  margin-top: 250px;
   margin-right: 90px;
 }
 
@@ -18,7 +20,8 @@
 .button {
   display: flex;
   justify-content: center;
-  padding-right: 85px;
+  margin-left: 250px;
+  margin-top: 25px;
 }
 
 .btn1 {
@@ -30,6 +33,7 @@
   padding: 15px 35px;
   border: none;
   text-decoration: none;
+  width: 200px;
 }
 
 .btn2 {
@@ -41,6 +45,10 @@
   padding: 15px 35px;
   border: none;
   text-decoration: none;
+  width: 200px;
+}
+.btn >i {
+  padding-right: 15px;
 }
 
 .two-container {
