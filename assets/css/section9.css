@@ -1,0 +1,58 @@
+
+.numbers {
+    color: black;
+    font-size: 45px;
+    font-style: bold;
+}
+
+.count {
+    color:rgb(43, 39, 39);
+    font-size: 10px;
+    font-style: bold;
+    text-align: center;
+}
+
+.number-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Section9*/
+
+.flex-container9 {
+   display: flex;
+   justify-content: left;
+   align-content: flex-start;
+ }
+
+.button9 {
+    background-color:#594CDA ;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    margin: 4px 2px;
+    padding: 15px 35px;
+    border: none;
+    text-decoration: none;
+}
+
+.button91 {
+    background-color: #EB427D ;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    margin: 4px 2px;
+    padding: 15px 35px;
+    border: none;
+    text-decoration: none;
+}
+
+.Smartphone2 {
+    display: flex;
+    justify-content: left ;
+}
+
+.text9 {
+  display: flex;
+  justify-content: right;
+}
