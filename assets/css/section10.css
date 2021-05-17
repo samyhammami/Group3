@@ -1,9 +1,32 @@
+.footer-contact {
+    display: flex;
+    font-style: bold;
+    color: black;        
+    }
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    size: 25px;
+}
+
+
 .footer-copyright {
     display: flex;
     justify-content: space-between;
   }
 
-  .end-footer {
+.end-footer {
     color: darkgrey;
     font-size: 15px;s
   }
+
+
+.Up-botton {
+    display: flex;
+    justify-content: right;
+    color: darkgrey;
+    border-radius: 360;
+}
+
