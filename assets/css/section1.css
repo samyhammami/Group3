@@ -20,6 +20,15 @@
 .topnav > a {
   padding-left: 5px;
   padding-right: 5px;
+  text-decoration: none;
+  color: grey;
+  font-size: 0.8em;
+}
+.topnav > a:active{
+  color: pink;
+}
+.topnav > i{
+  color: #594cda;
 }
 
 .name {
@@ -37,6 +46,7 @@
 .brandlogo > i {
   margin-right: 5px;
   font-size: 19px;
+  color: #594cda;
 }
 
 /*# sourceMappingURL=section1.css.map */

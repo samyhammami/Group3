@@ -1,7 +1,9 @@
 .footer-contact {
     display: flex;
     font-style: bold;
-    color: black;        
+    color: black;    
+    width: 100%;
+    margin-top:100px;    
     }
 
 .footer-logo {

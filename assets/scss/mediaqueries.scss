@@ -26,6 +26,18 @@
     }
 }
 
+@media (max-width: 480px) {
+    .two{
+        .two-container{
+            display: flex;
+            flex-flow: column;
+        }
+        .box{
+            flex:1;
+        }
+    }    
+}
+
 /* section 8 mobile */
 
 @media (max-width: 480px) {
@@ -48,9 +60,19 @@
 
 @media (max-width: 480px) {
     .sectionFive-wrapper {
+        justify-self: center;
+        align-items: center;
+        
         flex-flow: column!important;
+        .info{
+            width: 100%;
+            margin: 0;
+        }
         img{
             height: 200px!important;
+            width: 100%;
+            margin: 0;
+            align-self:center;
         }
     }
 }
