@@ -37,5 +37,14 @@
     margin: 50px 20px !important;
   }
 }
+/* section 5 mobile */
+@media (max-width: 480px) {
+  .sectionFive-wrapper {
+    flex-flow: column;
+  }
+  .sectionFive-wrapper img {
+    height: 200px !important;
+  }
+}
 
 /*# sourceMappingURL=mediaqueries.css.map */

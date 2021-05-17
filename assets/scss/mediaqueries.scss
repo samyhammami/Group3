@@ -46,5 +46,14 @@
     }
 }
 
+@media (max-width: 480px) {
+    .sectionFive-wrapper {
+        flex-flow: column!important;
+        img{
+            height: 200px!important;
+        }
+    }
+}
+
 
 
