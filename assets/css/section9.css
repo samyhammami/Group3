@@ -1,0 +1,22 @@
+
+.numbers {
+  color: black;
+  font-size: 45px;
+  font-style: bold;
+}
+
+.count {
+    color:rgb(43, 39, 39);
+    font-size: 10px;
+    font-style: bold;
+}
+
+.number-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  
+}
+

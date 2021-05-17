@@ -1,0 +1,9 @@
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .end-footer {
+    color: darkgrey;
+    font-size: 15px;s
+  }
