@@ -29,7 +29,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 0.85em;
-  background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
+  background: linear-gradient(180deg, #c6e9f8 0%, white 17% 85%, #c6e9f8 100%)
 }
 
 /*# sourceMappingURL=general.css.map */
