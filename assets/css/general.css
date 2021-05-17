@@ -1,3 +1,7 @@
+body {
+  background-color: #9b094d;
+}
+
 /* fonts */
 @font-face {
   font-family: "Font-Brands";
@@ -27,9 +31,15 @@ html {
 }
 
 body {
+<<<<<<< HEAD
+  background-color: white;
+  font-family: "Font-Regular", sans-serif;
+  font-size: 0.85em;
+=======
   font-family: "Open Sans", sans-serif;
   font-size: 0.85em;
   background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
+>>>>>>> 2756161221d55988e9a2e259f9d4a52a2c81ba74
 }
 
 /*# sourceMappingURL=general.css.map */
