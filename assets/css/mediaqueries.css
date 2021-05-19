@@ -25,6 +25,18 @@
     }
 }
 
+/* section 1 mobile */
+@media (max-width: 480px) {
+      .hamburger{
+        display: block;
+        margin-right: 10px;
+        font-size: 2em;
+      }
+      .topnav{
+        display: none;
+      }
+}
+
 
 /* section 2 mobile */
 
@@ -163,7 +175,6 @@
     .titlecontainer {}
 }
 
-
 /* section 8 mobile */
 
 @media (max-width: 480px) {
@@ -208,3 +219,13 @@
             flex-direction: column;
         }
     }
+@media (max-width: 480px) {
+  .footer-copyright {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .terms-wrapper{
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
