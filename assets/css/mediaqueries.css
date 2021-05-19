@@ -1,4 +1,4 @@
-/* comments that can be written in the css file*/
+    /* comments that can be written in the css file*/
 
 @media (max-width: 480px) {
     .number-wrapper {
@@ -11,6 +11,29 @@
 
 
 /* section 1 mobile*/
+
+
+/* general */
+
+@media (max-width: 480px) {
+    section {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+/* section 2 mobile */
+
+@media (max-width: 480px) {
+    .two .two-container {
+        display: flex;
+        flex-flow: column;
+    }
+    .two .box {
+        flex: 1;
+    }
+}
 
 
 /* section 4 mobile */
@@ -39,27 +62,85 @@
     .two .box {
         flex: 1;
     }
+    .four {
+        width: 95%;
+        margin: 2.5%;
+    }
+    .usp-box {
+        width: auto;
+        height: auto;
+        margin: 20px 0;
+    }
+    .usp-box .usp-icon {
+        margin-top: 40px;
+    }
+    .usp-box h3 {
+        margin-bottom: 5;
+    }
+    .usp-box p {
+        margin-bottom: 50px;
+    }
+    .usp-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
 }
 
 
-/* section 5 mobile*/
+/* section 5 mobile */
 
 @media (max-width: 480px) {
+    .five {
+        width: 90%;
+        margin: 0 5%;
+    }
     .sectionFive-wrapper {
-        justify-self: center;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
         align-items: center;
-        flex-flow: column !important;
+        flex-flow: column;
     }
     .sectionFive-wrapper .info {
         width: 100%;
-        margin: 0;
+        margin: 0 0 20px 0;
     }
-    .sectionFive-wrapper img {
-        height: 200px !important;
+    .sectionFive-wrapper .image {
         width: 100%;
-        margin: 0;
-        align-self: center;
     }
+    .sectionFive-wrapper .image img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+/* section 6 mobile */
+
+@media (max-width: 480px) {
+    .six {
+        width: 95%;
+        margin: 2.5%;
+    }
+    .number-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        align-content: center;
+    }
+    .six h3 {
+        margin: 10px 0;
+    }
+}
+
+
+/* section 7 mobile */
+
+@media (max-width: 480px) {
+    .titlecontainer {}
 }
 
 
@@ -72,16 +153,38 @@
     .pricing-offer {
         flex-flow: column;
     }
-    .pricing-container {
-        margin: 0;
+    @media (max-width: 480px) {
+        .eight {
+            background-size: cover;
+        }
+        .pricing-offer {
+            flex-flow: column;
+        }
+        .pricing-container {
+            margin: 0;
+        }
+        .pricing-tag {
+            padding: 10px;
+        }
+        .pricing-card {
+            margin: 50px 20px !important;
+        }
     }
-    .pricing-tag {
-        padding: 10px;
+    /* section 9 mobile */
+    @media (max-width: 480px) {
+        .flex-container9 {
+            flex-direction: column;
+        }
+        .Smartphone2 {
+            width: 100%;
+        }
+        .Smartphone2 img {
+            width: 100%;
+        }
     }
-    .pricing-card {
-        margin: 50px 20px !important;
+    /* section 10 mobile */
+    @media (max-width: 480px) {
+        .footer-contact {
+            flex-direction: column;
+        }
     }
-}
-
-
-/*# sourceMappingURL=mediaqueries.css.map */

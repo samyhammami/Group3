@@ -23,6 +23,7 @@
     text-decoration: none;
     color: grey;
     font-size: 0.8em;
+    font-weight: 600;
 }
 
 .topnav>a:active {
