@@ -6,6 +6,18 @@
   }
 }
 
+/* section 1 mobile */
+@media (max-width: 480px) {
+      .hamburger{
+        display: block;
+        margin-right: 10px;
+        font-size: 2em;
+      }
+      .topnav{
+        display: none;
+      }
+}
+
 /* section 2 mobile */
 @media (max-width: 480px) {
   .two .two-container {
