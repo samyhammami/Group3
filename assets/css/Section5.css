@@ -1,5 +1,105 @@
-.sectionFive {
-  display: flex;
+/* fonts */
+@font-face {
+  font-family: "Font-Brands";
+  src: url("fonts/fa-brands-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-brands-400.woff2") format("woff2"), url("fonts/fa-brands-400.woff") format("woff"), url("fonts/fa-brands-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-brands-400.svg") format("svg");
+  /* Legacy iOS */
 }
+@font-face {
+  font-family: "Font-Regular";
+  src: url("fonts/fa-regular-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-regular-400.woff2") format("embedded-opentype"), url("fonts/fa-regular-400.woff2") format("woff2"), url("fonts/fa-regular-400.woff") format("woff"), url("fonts/fa-regular-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-regular-400.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Font-Solid";
+  src: url("fonts/fa-solid-900.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff"), url("fonts/fa-solid-900.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-solid-900.svg") format("svg");
+  /* Legacy iOS */
+}
+/* colors */
+/* overall styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85em;
+  background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
+}
+
+.five {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.sectionFive-wrapper {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  align-items: center;
+  align-self: center;
+  margin-top: 80px;
+  justify-content: center;
+}
+.sectionFive-wrapper .info {
+  flex-grow: 1;
+  display: flex;
+  width: 50%;
+  flex-flow: column;
+  padding: 0 40px;
+}
+.sectionFive-wrapper .info h4 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.sectionFive-wrapper .info p, .sectionFive-wrapper .info ul {
+  color: grey;
+  list-style: none;
+  padding: 0;
+  font-size: 0.8em;
+}
+.sectionFive-wrapper .info i {
+  font-size: 0.7em;
+  color: #594cda;
+}
+.sectionFive-wrapper .info .bouton1 {
+  background-color: #594cda;
+  border: none;
+  text-align: center;
+  color: white;
+  border-radius: 2rem;
+  margin: 4px 2px;
+  padding: 15px;
+  text-decoration: none;
+}
+.sectionFive-wrapper .info .bouton2 {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 2rem;
+  margin: 4px 2px;
+  padding: 15px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.sectionFive-wrapper .image {
+  flex: 1;
+  width: 50%;
+  align-self: center;
+}
+.sectionFive-wrapper .image img {
+  height: 300px;
+  width: auto;
+}
+
 
 /*# sourceMappingURL=Section5.css.map */

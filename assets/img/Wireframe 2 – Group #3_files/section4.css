@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 body {
   background-color: #9b094d;
 }
 
-=======
->>>>>>> a4335d31e9175529ea209bf53524ac28c2743b30
 /* fonts */
 @font-face {
   font-family: "Font-Brands";
@@ -34,9 +31,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  font-family: "Font-Regular", sans-serif;
   font-size: 0.85em;
-  background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
 }
 
 /* section 3 */
