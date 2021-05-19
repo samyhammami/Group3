@@ -151,3 +151,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .footer-copyright {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .terms-wrapper{
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
