@@ -1,3 +1,7 @@
+
+/* comments that can be written in the css file*/
+
+
 /* general */
 @media (max-width: 480px) {
   section{
@@ -131,7 +135,19 @@
     width: 100%;
   }
 }
+/* Section 7*/
 
+@media (max-width: 480px) {
+  .testimony-container .title-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+  }
+
+}
+/*# sourceMappingURL=mediaqueries.css.map */
 /* section 10 mobile */
 @media (max-width: 480px) {
   .footer-contact {
