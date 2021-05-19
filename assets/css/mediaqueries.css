@@ -1,4 +1,10 @@
 /* comments that can be written in the css file*/
+
+
+
+
+
+
 @media (max-width: 480px) {
   .number-wrapper {
     display: flex;
@@ -71,5 +77,16 @@
     align-self: center;
   }
 }
+/* Section 7*/
 
+@media (max-width: 480px) {
+  .testimony-container .title-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+  }
+
+}
 /*# sourceMappingURL=mediaqueries.css.map */
