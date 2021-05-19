@@ -13,6 +13,9 @@
 /* section 1 mobile*/
 
 
+/* comments that can be written in the css file*/
+
+
 /* general */
 
 @media (max-width: 480px) {
@@ -137,7 +140,24 @@
 }
 
 
-/* section 7 mobile */
+/* Section 7*/
+
+@media (max-width: 480px) {
+    .testimony-container .title-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+    }
+    /* section 7 mobile */
+}
+
+
+/*# sourceMappingURL=mediaqueries.css.map */
+
+
+/* section 10 mobile */
 
 @media (max-width: 480px) {
     .titlecontainer {}
