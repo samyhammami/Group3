@@ -1,17 +1,32 @@
-/* comments that can be written in the css file*/
+/* general */
 @media (max-width: 480px) {
-  .number-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: column;
-    align-content: center;
+  section{
+    width: 100%;
+    margin:0;
   }
 }
+
+/* section 2 mobile */
+@media (max-width: 480px) {
+  .two .two-container {
+    display: flex;
+    flex-flow: column;
+  }
+  .two .box {
+    flex: 1;
+  }
+}
+
 /* section 4 mobile */
 @media (max-width: 480px) {
+  .four{
+    width: 95%;
+    margin:2.5%;
+  }
   .usp-box {
     width: auto;
     height: auto;
+    margin:20px 0;
   }
   .usp-box .usp-icon {
     margin-top: 40px;
@@ -22,16 +37,65 @@
   .usp-box p {
     margin-bottom: 50px;
   }
-}
-@media (max-width: 480px) {
-  .two .two-container {
+  .usp-container {
     display: flex;
     flex-flow: column;
-  }
-  .two .box {
-    flex: 1;
+    justify-content: center;
   }
 }
+
+/* section 5 mobile */
+@media (max-width: 480px) {
+  .five{
+    width: 90%;
+    margin:0 5%;
+  }
+  .sectionFive-wrapper {
+    width: 100%;
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .sectionFive-wrapper .info {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .sectionFive-wrapper .image{
+    width: 100%;
+  }
+  .sectionFive-wrapper .image img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;   
+  }
+}
+
+/* section 6 mobile */
+@media (max-width: 480px) {
+  .six{
+    width: 95%;
+    margin:2.5%;
+  }
+  .number-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    align-content: center;
+  }
+  .six h3{
+    margin: 10px 0;
+  }
+}
+
+/* section 7 mobile */
+@media (max-width: 480px) {
+  .titlecontainer{
+
+  }
+}
+
 /* section 8 mobile */
 @media (max-width: 480px) {
   .eight {
@@ -54,22 +118,24 @@
     margin: 50px 20px !important;
   }
 }
+
+/* section 9 mobile */
 @media (max-width: 480px) {
-  .sectionFive-wrapper {
-    justify-self: center;
-    align-items: center;
-    flex-flow: column !important;
+  .flex-container9 {
+    flex-direction: column;
   }
-  .sectionFive-wrapper .info {
+  .Smartphone2{
     width: 100%;
-    margin: 0;
   }
-  .sectionFive-wrapper img {
-    height: 200px !important;
+  .Smartphone2 img{
     width: 100%;
-    margin: 0;
-    align-self: center;
   }
 }
 
-/*# sourceMappingURL=mediaqueries.css.map */
+/* section 10 mobile */
+@media (max-width: 480px) {
+  .footer-contact {
+    flex-direction: column;
+  }
+}
+

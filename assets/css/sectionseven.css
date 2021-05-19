@@ -14,12 +14,13 @@
 }
 
 .testi {
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
   padding: 0px;
-  margin: 15px;
+  margin: 50px;
   border-radius: 20px;
   display: flex;
+  flex: 1;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -28,7 +29,13 @@
 .testi p {
   font-style: italic;
   color: #CAD3D7;
-  font-size: 14px;
+  font-size: 0.8em;
+  text-align: center;
+  color: #6b747b;
+  line-height: 1.5em;
+}
+.testi h5{
+  margin-top:0;
 }
 
 .testimage {
