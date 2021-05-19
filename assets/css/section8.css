@@ -1,124 +1,103 @@
-/* fonts */
-@font-face {
-  font-family: "Font-Brands";
-  src: url("fonts/fa-brands-400.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-brands-400.woff2") format("woff2"), url("fonts/fa-brands-400.woff") format("woff"), url("fonts/fa-brands-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-brands-400.svg") format("svg");
-  /* Legacy iOS */
-}
-@font-face {
-  font-family: "Font-Regular";
-  src: url("fonts/fa-regular-400.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/fa-regular-400.woff2") format("embedded-opentype"), url("fonts/fa-regular-400.woff2") format("woff2"), url("fonts/fa-regular-400.woff") format("woff"), url("fonts/fa-regular-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-regular-400.svg") format("svg");
-  /* Legacy iOS */
-}
-@font-face {
-  font-family: "Font-Solid";
-  src: url("fonts/fa-solid-900.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff"), url("fonts/fa-solid-900.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-solid-900.svg") format("svg");
-  /* Legacy iOS */
-}
-/* colors */
-/* overall styles */
-html {
-  font-size: 18px;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.85em;
-  background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
-}
 
 .eight {
-  background-image: url("/assets/img/pricing-background2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 50px;
+    background-image: url("../img/pricing-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
 }
 
 .pricing-container {
-  display: flex;
-  flex-flow: column;
-  margin: 0 10%;
+    display: flex;
+    flex-flow: column;
 }
 
 .pricing-tag {
-  text-align: center;
-  color: white;
-  padding: 75px;
+    text-align: center;
+    color: white;
+    padding: 75px;
 }
+
 .pricing-tag h2 {
-  font-size: 2em;
+    font-size: 2em;
 }
+
 .pricing-tag p {
-  position: relative;
-  width: 80%;
-  left: 10%;
-  line-height: 1.5em;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    line-height: 1.5em;
 }
 
 .pricing-offer {
-  display: flex;
-  flex-flow: row no-wrap;
-  justify-content: center;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
 }
+
 .pricing-offer .pricing-card {
-  flex: 1;
-  position: relative;
-  background-color: white;
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  margin: 0 20px;
-  padding: 20px;
-  text-align: center;
+    flex: 1;
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
 }
+
 .pricing-offer .pricing-card h4 {
-  text-transform: uppercase;
-  color: #eb427d;
+    text-transform: uppercase;
+    color: #eb427d;
 }
+
 .pricing-offer .pricing-card .price {
-  font-size: 4em;
-  line-height: 0.3;
-  margin: 40px;
+    font-size: 4em;
+    line-height: 0.3;
+    margin: 40px;
 }
+
 .pricing-offer .pricing-card .price .dollar {
-  font-size: 0.5em;
-  margin: 5px;
+    font-size: 0.5em;
+    margin: 5px;
 }
+
 .pricing-offer .pricing-card .price .monthly {
-  font-size: 0.25em;
-  color: grey;
+    font-size: 0.25em;
+    color: grey;
 }
+
 .pricing-offer .pricing-card ul {
-  font-size: 0.95em;
-  color: grey;
-  text-align: left;
-  list-style: none;
-  padding: 0;
-  margin: 0 20px 50px 20px;
+    font-size: 0.95em;
+    color: grey;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 20px 50px 20px;
 }
+
 .pricing-offer .pricing-card ul li {
-  margin: 10px 0;
+    margin: 10px 0;
 }
+
 .pricing-offer .pricing-card ul li i {
-  font-size: 0.7em;
-  color: #594cda;
+    font-size: 0.7em;
+    color: #594cda;
 }
+
 .pricing-offer .pricing-card ul li:first-child {
-  margin-top: 15px;
+    margin-top: 15px;
 }
+
 .pricing-offer .pricing-card button {
-  background-color: #594cda;
-  color: white;
-  padding: 15px 35px;
-  border: 0;
-  border-radius: 25px;
-  width: 50%;
-  position: absolute;
-  left: 25%;
+    background-color: #594cda;
+    color: white;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 25px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
 }
+
 
 /*# sourceMappingURL=section8.css.map */

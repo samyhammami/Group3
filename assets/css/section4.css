@@ -39,11 +39,8 @@ body {
   align-items: center;
 }
 
-.slogan-container {
-  width: 80%;
-}
 .slogan-container p {
-  font-size: 1.75em;
+  font-size: 1.55em;
   text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -59,9 +56,8 @@ body {
 }
 
 .usp-container {
-  width: 90%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: center;
 }
 
@@ -92,22 +88,3 @@ body {
   line-height: 1.5em;
   padding: 0 30px;
 }
-
-/* section 4 mobile */
-@media (max-width: 480px) {
-  .usp-box {
-    width: auto;
-    height: auto;
-  }
-  .usp-box .usp-icon {
-    margin-top: 40px;
-  }
-  .usp-box h3 {
-    margin-bottom: 5;
-  }
-  .usp-box p {
-    margin-bottom: 50px;
-  }
-}
-
-/*# sourceMappingURL=section4.css.map */
