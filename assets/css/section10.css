@@ -1,16 +1,31 @@
 .footer-contact {
     display: flex;
-    font-style: bold;
+    font-size: 30px;
     color: black;    
     width: 100%;
-    margin-top:100px;    
+    margin-top:100px; 
+    justify-content: center;   
     }
 
+.footer.text {
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.buttons-footer {
+  justify-content: space-evenly;
+}
+
 .footer-logo {
+    align-content: center;
+}
+
+.social-icons {
     display: flex;
     justify-content: center;
-    padding: 25px;
-    size: 25px;
+    align-content: stretch;
+    padding: 35px;
 }
 
 
@@ -20,15 +35,13 @@
   }
 
 .end-footer {
-    color: darkgrey;
-    font-size: 15px;s
+    font-color: rgb(77, 68, 68);
+    font-size: 15px;
   }
 
 
 .Up-botton {
-    display: flex;
-    justify-content: right;
-    color: darkgrey;
-    border-radius: 360;
+    background-color: darkgrey;
+     ;
 }
 
